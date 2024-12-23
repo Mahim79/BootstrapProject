@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FavIcon-->
+    <!-- <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> -->
+    <title>Day</title>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/90a5164c01.js" crossorigin="anonymous"></script>    
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--JavaScript-->
+    <script src="main.js" defer></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+      .service__card .card:hover{
+        background:#dc3546b2;
+        color: #fff;
+        cursor: pointer;
+      }
+    </style>
+
+</head>
+<body>
+    <!--Header Section-->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
+            <div class="container">
+              <a class="navbar-brand fs-1 fw-bold" href="#hero">DAY</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                <div class="offcanvas-header">
+                    <a class="offcanvas-title navbar-brand fs-1 fw-bold" href="#" id="offcanvasNavbarLabel">DAY</a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                <ul class="navbar-nav nav-pills ms-auto mb-2 mb-lg-0 me-lg-5">
+                  <li class="nav-item">
+                    <a class="nav-link active ps-2" aria-current="page" href="#hero">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ps-2" href="#about">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ps-2" href="#service" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#service">Web Design</a></li>
+                        <li><a class="dropdown-item" href="#service">Web Development</a></li>
+                        <li><a class="dropdown-item" href="#service">Software Development</a></li>
+                        <li><a class="dropdown-item" href="#service">Database Management</a></li>
+                    </ul>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ps-2" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ps-2" href="#pricing">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ps-2" href="#team">Team</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link ps-2" href="#contact">Contact</a>
+                  </li>
+                </ul>
+            </div>
+            </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <!--Main Section-->
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary  rounded-2" tabindex="0">
+
+      
+
+    <!--Hero Section-->
+    <section class="hero" id="hero">
+      <div class="hero__area position-relative " >
+
+        <img src="img/hero-bg2.jpg" alt="background-image" class="img-fluid w-100" style="filter: brightness(0.4);">
+
+        <div class="hero__content position-absolute  mt-3" data-aos="fade-up"  >
+        <h1 class="fw-bold text-light">Welcome to DAY</h1>
+        <p class="fw-normal text-light opacity-75">We are team of talented designers making websites with Bootstrap</p>
+        <button class="btn btn-outline-danger">Get Started</button>
+      </div>
+      </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about pt-5" id="about">
+        <div class="about__title text-center position-relative" data-aos="zoom-in">
+          <h2 class="display-2 fw-bold  text-secondary" style="opacity:0.1">ABOUT US</h2>
+          <p class="display-4 fw-bold position-absolute top-50 start-50 translate-middle mt-3" >ABOUT US</p>
+        </div>
+        <p class="px-2 text-center fs-4" data-aos="zoom-in">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    
+        <div class="about__container w-100 row mt-5">
+          <img src="img/about.jpg" alt="meeting" data-aos="fade-right" class="img-fluid p-md-5 ms-2 ms-md-0 col-md-6">
+          <div class=" p-4 col-md-6" data-aos="fade-up">
+            <h3 class="fw-bold">Voluptatem dignissimos provident quasi corporis</h3>
+            <p class="">Aliquam rem mollitia culpa debitis minima, nisi quae, nam eum nulla repellat deleniti nesciunt hic consequatur ducimus, exercitationem quia. Quos, tenetur commodi?</p>
+          
+            <ul class="list-unstyled">
+              <li class="my-2">
+                <i class="fa-solid fa-circle-check text-danger"></i>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </li>
+              <li class="my-2">
+                <i class="fa-solid fa-circle-check text-danger"></i>
+                Duis aute irure dolor in reprehenderit in voluptate velit.
+              </li>
+              <li class="my-2">
+                <i class="fa-solid fa-circle-check text-danger"></i>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+              </li>
+            </ul>
+
+            <button class="btn btn-danger">Read more</button>
+          </div>
+        </div>
+    
+        <div class="p-3 container">
+
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100">
+
+                <div class="card-body">
+                  <p class="pt-3 ps-3 text-danger fs-1">01</p>
+                  <h5 class="card-title fw-bold display-6 pt-1 ps-3">trideta storacalaperda</h5>
+                  <p class="card-text pt-1 ps-3 pb-3">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100">
+
+                <div class="card-body">
+                  <p class="pt-3 ps-3 text-danger fs-1">02</p>
+                  <h5 class="card-title fw-bold display-6 pt-1 ps-3">Repellat Nihil</h5>
+                  <p class="card-text pt-1 ps-3 pb-3">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100">
+
+                <div class="card-body">
+                  <p class="pt-3 ps-3 text-danger fs-1">03</p>
+                  <h5 class="card-title fw-bold display-6 pt-1 ps-3">Ad ad velit qui</h5>
+                  <p class="card-text pt-1 ps-3 pb-3">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100">
+
+                <div class="card-body">
+                  <p class="pt-3 ps-3 text-danger fs-1">04</p>
+                  <h5 class="card-title fw-bold display-6 pt-1 ps-3">Repellendus molestiae</h5>
+                  <p class="card-text pt-1 ps-3 pb-3">Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100" >
+
+                <div class="card-body">
+                  <p class="pt-3 ps-3 text-danger fs-1">05</p>
+                  <h5 class="card-title fw-bold display-6 pt-1 ps-3">Sapiente Magnam</h5>
+                  <p class="card-text pt-1 ps-3 pb-3">Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="fade-up">
+              <div class="card h-100">
+
+                <div class="card-body">
+                  <p class="pt-3 ps-3 text-danger fs-1">06</p>
+                  <h5 class="card-title fw-bold display-6 pt-1 ps-3">Facilis Impedit</h5>
+                  <p class="card-text pt-1 ps-3 pb-3">Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <!--Client-->
+        <div class="container py-5">
+          <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active " data-bs-interval="4000">
+                <div class="d-flex align-items-center justify-content-around gap-5 flex-wrap">
+                <img src="img/clients/client-1.png" class="d-block" style="width:150px" alt="...">
+                <img src="img/clients/client-2.png" class="d-block" style="width:150px" alt="...">
+                <img src="img/clients/client-3.png" class="d-block" style="width:150px" alt="...">
+                <img src="img/clients/client-4.png" class="d-block" style="width:150px" alt="...">
+              </div>
+              </div>
+              
+                <div class="carousel-item " data-bs-interval="4000">
+                  <div class="d-flex align-items-center justify-content-around gap-5 flex-wrap">
+                  <img src="img/clients/client-5.png" class="d-block" style="width:150px" alt="...">
+                  <img src="img/clients/client-6.png" class="d-block" style="width:150px" alt="...">
+                  <img src="img/clients/client-7.png" class="d-block" style="width:150px" alt="...">
+                  <img src="img/clients/client-8.png" class="d-block" style="width:150px" alt="...">
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--Service Section-->
+    <section class="service pt-5 z-2 ">
+      <div class="service__title text-center position-relative" data-aos="zoom-in">
+        <h2 class="display-2 fw-bold  text-secondary" style="opacity:0.1">SERVICES</h2>
+        <p class="display-4 fw-bold position-absolute top-50 start-50 translate-middle mt-3" >SERVICES</p>
+      </div>
+      <p class="px-2 text-center fs-4  pb-5" data-aos="zoom-in">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+
+      <div class="container" id="service">
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="service__card col p-2" data-aos="fade-up">
+              <div class="card h-100">
+                <div class="service__title text-center position-relative p-3">
+                  <i class="fa-solid fa-chart-line text-center text-secondary" style="font-size: 5rem;opacity:0.1"></i>
+                  <i class="fa-solid fa-chart-line text-center text-danger position-absolute top-50 start-50 mt-3 ms-3 translate-middle" style="font-size: 5rem;"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold fs-1">Nesciunt Mete</h5>
+                  <p class="card-text text-center fs-4">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                </div>
+            </div>
+          </div>
+
+            <div class="service__card col p-2" data-aos="fade-up">
+              <div class="card h-100">
+                <div class="service__title text-center position-relative p-3">
+                  <i class="fa-solid fa-tower-broadcast text-center text-secondary" style="font-size: 5rem;opacity:0.1"></i>
+                  <i class="fa-solid fa-tower-broadcast text-center text-danger position-absolute top-50 start-50 mt-3 ms-3 translate-middle" style="font-size: 5rem;"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold fs-1">Eosle Commodi</h5>
+                  <p class="card-text text-center fs-4">Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+                </div>
+            </div>
+          </div>
+
+            <div class="service__card col p-2" data-aos="fade-up">
+              <div class="card h-100">
+                <div class="service__title text-center position-relative p-3">
+                  <i class="fa-solid fa-tv text-center text-secondary" style="font-size: 5rem;opacity:0.1"></i>
+                  <i class="fa-solid fa-tv text-center text-danger position-absolute top-50 start-50 mt-3 ms-3 translate-middle" style="font-size: 5rem;"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold fs-1">Ledo Markt</h5>
+                  <p class="card-text text-center fs-4">Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+                </div>
+            </div>
+          </div>
+
+            <div class="service__card col p-2" data-aos="fade-up">
+              <div class="card h-100">
+                <div class="service__title text-center position-relative p-3">
+                  <i class="fa-solid fa-vector-square text-center text-secondary" style="font-size: 5rem;opacity:0.1"></i>
+                  <i class="fa-solid fa-vector-square text-center text-danger position-absolute top-50 start-50 mt-3 ms-3 translate-middle" style="font-size: 5rem;"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold fs-1">Asperiores Commodit</h5>
+                  <p class="card-text text-center fs-4">Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+                </div>
+            </div>
+          </div>
+
+            <div class="service__card col p-2" data-aos="fade-up">
+              <div class="card h-100">
+                <div class="service__title text-center position-relative p-3">
+                  <i class="fa-solid fa-calendar-days text-center text-secondary" style="font-size: 5rem;opacity:0.1"></i>
+                  <i class="fa-solid fa-calendar-days text-center text-danger position-absolute top-50 start-50 mt-3 ms-3 translate-middle" style="font-size: 5rem;"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold fs-1">Velit Doloremque</h5>
+                  <p class="card-text text-center fs-4">Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+                </div>
+            </div>
+          </div>
+
+            <div class="service__card col p-2" data-aos="fade-up">
+              <div class="card h-100">
+                <div class="service__title text-center position-relative p-3">
+                  <i class="fa-solid fa-message text-center text-secondary" style="font-size: 5rem;opacity:0.1"></i>
+                  <i class="fa-solid fa-message text-center text-danger position-absolute top-50 start-50 mt-3 ms-3 translate-middle" style="font-size: 5rem;"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bold fs-1">Dolori Architecto</h5>
+                  <p class="card-text text-center fs-4">Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+                </div>
+            </div>
+          </div>
+
+          </div>
+
+      </div>
+
+    </section>
+
+    <!--Action Section-->
+    <section class="action position-relative mt-5 p-5" style="clip-path: inset(0);">
+      
+      <img src="img/cta-bg.jpg" class="position-fixed bottom-0 start-0  img-fluid" alt="">
+
+      <div class="text-center text-light p-5 position-relative z-3" data-aos="zoom-in">
+        <h2>Call To Action</h2>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button class="btn btn-outline-danger">Call To Action</button>
+      </div>
+    </section>
+
+    <!--Portfolio Section-->
+    <section class="portfolio mt-5" id="portfolio">
+      <div class="portfolio__title text-center position-relative" data-aos="zoom-in">
+        <h2 class="display-2 fw-bold  text-secondary" style="opacity:0.1">PORTFOLIO</h2>
+        <p class="display-4 fw-bold position-absolute top-50 start-50 translate-middle mt-3" >PORTFOLIO</p>
+      </div>
+      <p class="px-2 text-center fs-4  pb-5" data-aos="zoom-in">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+
+      <div class="portfolio__container">
+        <div class="portfolio__btns">
+          <button data-name="all" class="portfolio__btn active">All</button>
+          <button class="portfolio__btn" data-name="web">Web</button>
+          <button class="portfolio__btn" data-name="app">App</button>
+          <button class="portfolio__btn" data-name="card">Card</button>
+        </div>
+
+        <div class="portfolio__img_list" data-aos="fade-up">
+          <div class="portfolio__img " data-name="app"><img src="img/masonry-portfolio/app1.png"  alt="portfolio image"></div>
+          <div class="portfolio__img card1" data-name="card"><img src="img/masonry-portfolio/card1.png"  alt="portfolio image"></div>
+          <div class="portfolio__img web1" data-name="web"><img src="img/masonry-portfolio/web1.png"  alt="portfolio image"></div>
+          <div class="portfolio__img app2" data-name="app"><img src="img/masonry-portfolio/app2.png"  alt="portfolio image"></div>
+          <div class="portfolio__img card3" data-name="card"><img src="img/masonry-portfolio/card3.png"  alt="portfolio image"></div>
+          <div class="portfolio__img card2" data-name="card"><img src="img/masonry-portfolio/card2.png"  alt="portfolio image"></div>
+          <div class="portfolio__img web2" data-name="web"><img src="img/masonry-portfolio/web2.png"  alt="portfolio image"></div>
+          <div class="portfolio__img app3" data-name="app"><img src="img/masonry-portfolio/app3.png"  alt="portfolio image"></div>
+          <div class="portfolio__img web3" data-name="web"><img src="img/masonry-portfolio/web3.png"  alt="portfolio image"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--Pricing-->
+    <section class="pricing mt-5 container" id="pricing">
+      <div class="pricing__title text-center position-relative">
+        <h2 class="display-2 fw-bold  text-secondary" style="opacity:0.1">PRICING</h2>
+        <p class="display-4 fw-bold position-absolute top-50 start-50 translate-middle mt-3" >PRICING</p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-lg-3 g-4 my-5">
+
+        <div class="col" >
+        <div class="card h-100 p-3">
+          <h2 class="text-center">Free Plan</h2>
+          <div class="card-body">
+            <h5 class="card-title text-center display-4 text-danger fw-bold">$0 <span class="text-dark fw-normal fs-4">/monthly</span> </h5>
+            <ul class="mt-3">
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-success px-2"></i>Quam adipiscing vitae proin</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-success px-2"></i>Nec feugiat nisl pretium</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-success px-2"></i>Nulla at volutpat diam uteera</li>
+              <li class="list-unstyled py-2 text-decoration-line-through"><i class="fa-solid fa-xmark text-secondary px-2"></i>Pharetra massa massa ultricies</li>
+              <li class="list-unstyled py-2 text-decoration-line-through"><i class="fa-solid fa-xmark text-secondary px-2"></i>Massa ultricies mi quis hendrerit</li>
+            </ul>
+            
+            <button class="btn btn-outline-danger mx-auto d-block">Buy Now</button>
+            
+          </div>
+        </div>
+        </div>
+
+        <div class="col" >
+        <div class="card h-100 p-3 bg-danger text-light">
+          <h2 class="text-center">Business Plan</h2>
+          <div class="card-body =">
+            <h5 class="card-title text-center display-4  fw-bold">$29 <span class="text-dark fw-normal fs-4">/monthly</span> </h5>
+            <ul class="mt-3">
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-light px-2"></i>Quam adipiscing vitae proin</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-light px-2"></i>Nec feugiat nisl pretium</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-lignt px-2"></i>Nulla at volutpat diam uteera</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-light px-2"></i>Pharetra massa massa ultricies</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-light px-2"></i>Massa ultricies mi quis hendrerit</li>
+            </ul>
+            
+            <button class="btn btn-outline-light mx-auto d-block">Buy Now</button>
+            
+          </div>
+        </div>
+        </div>
+
+        <div class="col" >
+        <div class="card p-3 h-100 position-relative">
+          <h2 class="text-center">VIP Plan</h2>
+          <div class="card-body">
+            <h5 class="card-title text-center display-4 text-danger fw-bold">$49 <span class="text-dark fw-normal fs-4">/monthly</span> </h5>
+            <ul class="mt-3">
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-success px-2"></i>Quam adipiscing vitae proin</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-success px-2"></i>Nec feugiat nisl pretium</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-success px-2"></i>Nulla at volutpat diam uteera</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-success px-2"></i>Pharetra massa massa ultricies</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-success px-2"></i>Massa ultricies mi quis hendrerit</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-success px-2"></i>Laudantium suscipit velit sit quibusdam in</li>
+              <li class="list-unstyled py-2"><i class="fa-solid fa-check text-success px-2"></i>Corrupti culpa exercitationem sint earum rem nostrum</li>
+            </ul>
+            
+              <button class="btn btn-outline-danger mx-auto d-block">Buy Now</button>
+            
+          </div>
+        </div>
+        </div>
+        
+        
+      </div>
+    </section>
+
+    <!--Team-->
+    <section class="team" id="team">
+      <div class="pricing__title text-center position-relative" data-aos="zoom-in">
+        <h2 class="display-2 fw-bold  text-secondary" style="opacity:0.1">TEAM</h2>
+        <p class="display-4 fw-bold position-absolute top-50 start-50 translate-middle mt-3" >TEAM</p>
+      </div>
+
+      <div class="container my-5" data-aos="fade-up">
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/team/team-1.jpg" width="100px" class="card-img-top rounded-circle px-5 pt-3" alt="Walter White">
+              <div class="card-body">
+                <h2 class="card-title text-center">Walter White</h2>
+                <p class="text-center text-secondary">Web Development</p>
+                <p class="card-text text-center">Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</p>
+              </div>
+              <div class=" text-center fs-2 text-secondary py-3">
+                <i class="team__icon fa-brands fa-x-twitter mx-1"></i>
+                <i class="team__icon fa-brands fa-facebook mx-1"></i>
+                <i class="team__icon fa-brands fa-instagram mx-1"></i>
+                <i class="team__icon fa-brands fa-linkedin mx-1"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/team/team-2.jpg" width="100px" class="card-img-top rounded-circle px-5 pt-3" alt="Sarah Jhinson">
+              <div class="card-body">
+                <h2 class="card-title text-center">Sarah Jhinson</h2>
+                <p class="text-center text-secondary">Web Design</p>
+                <p class="card-text text-center">Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus</p>
+              </div>
+              <div class=" text-center fs-2 text-secondary py-3">
+                <i class="team__icon fa-brands fa-x-twitter mx-1"></i>
+                <i class="team__icon fa-brands fa-facebook mx-1"></i>
+                <i class="team__icon fa-brands fa-instagram mx-1"></i>
+                <i class="team__icon fa-brands fa-linkedin mx-1"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/team/team-3.jpg" width="100px" class="card-img-top rounded-circle px-5 pt-3" alt="William Anderson">
+              <div class="card-body">
+                <h2 class="card-title text-center">William Anderson</h2>
+                <p class="text-center text-secondary">Database Management</p>
+                <p class="card-text text-center">Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara</p>
+              </div>
+              <div class=" text-center fs-2 text-secondary py-3">
+                <i class="team__icon fa-brands fa-x-twitter mx-1"></i>
+                <i class="team__icon fa-brands fa-facebook mx-1"></i>
+                <i class="team__icon fa-brands fa-instagram mx-1"></i>
+                <i class="team__icon fa-brands fa-linkedin mx-1"></i>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </section>
+
+    <!--Contact-->
+    <section class="contact" id="contact">
+
+      <div class="pricing__title text-center position-relative" data-aos="zoom-in">
+        <h2 class="display-2 fw-bold  text-secondary" style="opacity:0.1">CONTACT</h2>
+        <p class="display-4 fw-bold position-absolute top-50 start-50 translate-middle mt-3" >CONTACT</p>
+      </div>
+
+      <div class="container mx-auto  my-5 row">
+
+        <div class="card p-4 text-center col-12 col-lg-6 ">
+          <div class="d-block mx-auto  border-danger text-danger border-dotted rounded-circle d-flex align-items-center justify-content-center" style="width: 80px;height: 80px;">
+            <i class="fa-solid fa-location-dot fs-1 "></i>
+          </div>
+          <h2 class="py-2 fw-bold">Address</h2>
+          <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+
+        <div class="d-flex align-items-start justify-content-around col-12 col-lg-6 gap-2">
+        <div class="card p-4 text-center mt-3 mt-lg-0 flex-grow-1">
+          <div class="d-block mx-auto  border-danger text-danger border-dotted rounded-circle d-flex align-items-center justify-content-center" style="width: 80px;height: 80px;">
+            <i class="fa-solid fa-phone fs-1"></i>
+          </div>
+          <h2 class="py-2 fw-bold">Call Us</h2>
+          <p>+1 5589 55488 55</p>
+        </div>
+
+        <div class="card py-4 px-lg-5 text-center mt-3 mt-lg-0 flex-grow-1">
+          <div class="d-block mx-auto  border-danger text-danger border-dotted rounded-circle d-flex align-items-center justify-content-center" style="width: 80px;height: 80px;">
+            <i class="fa-solid fa-envelope fs-1"></i>
+          </div>
+          <h2 class="py-2 fw-bold">Email Us</h2>
+          <p>info@example.com</p>
+        </div>
+        </div>
+        
+      </div>
+
+
+      <div class="container mx-auto row my-5">
+
+        <div class="col-12 col-lg-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1512.31565008138!2d-73.99344527941679!3d40.70411713854996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a311f95d953%3A0x63ccbc2bfd4ed370!2sJane&#39;s%20Carousel!5e0!3m2!1sen!2sbd!4v1733393069661!5m2!1sen!2sbd" width="100%" height="400px"></iframe>
+        </div>
+
+        <div class="card col-12 col-lg-6 p-4">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" id="inputPassword4" placeholder="Email Address">
+              </div>
+              <div class="col-lg-12">
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Subject">
+              </div>
+              <div class="col-lg-12">
+                <textarea placeholder="Message" class="form-control w-100" rows="5"></textarea>
+              </div>
+              
+              <div class="col-12">
+                <button type="submit" class="btn btn-danger rounded-pill px-5 mx-auto d-block fw-bold">Sign in</button>
+              </div>
+            </form>
+        </div>
+      </div>
+
+    </section>
+    
+    </main>
+
+    <!--Footer-->
+    <footer class="min-vh-100 bg-dark text-light">
+    <div class="container mt-5 d-lg-flex align-items-start justify-content-around gap-4 py-5 ">
+  
+      <div class="container p-4">
+        <div class="footer__card text-center px-3 py-5 border-top border-danger border-3" style="background: #252525;">
+          <h2 class="fs-1">DAY</h2>
+          <p>A108 Adam Street New York, NY 535022</p>
+          <p><span class="fw-bold">Phone:</span> +1 5589 55488 55</p>
+          <p><span class="fw-bold">Email:</span> info@day.com</p>
+          <div class=" text-center fs-2 text-secondary py-3  ">
+            <i class="team__icon fa-brands fa-x-twitter mx-1 border rounded-circle p-2"></i>
+            <i class="team__icon fa-brands fa-facebook mx-1  border rounded-circle p-2"></i>
+            <i class="team__icon fa-brands fa-instagram mx-1 border rounded-circle p-2"></i>
+            <i class="team__icon fa-brands fa-linkedin mx-1  border rounded-circle p-2"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex align-items-start justify-content-around py-3">
+        <div class="d-flex flex-column  align-items-start">
+          <h2 class="fs-4">Useful Links</h2>
+          <ul class="list-unstyled d-flex flex-column  align-items-start gap-2">
+            <li><a class=" text-decoration-none" href="#">Home</a></li>
+            <li><a class=" text-decoration-none" href="#">About Us</a></li>
+            <li><a class=" text-decoration-none" href="#">Services</a></li>
+            <li><a class=" text-decoration-none" href="#">Terms of service</a></li>
+            <li><a class=" text-decoration-none" href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="d-flex flex-column  align-items-start">
+          <h2 class="fs-4">Our Services</h2>
+          <ul class="list-unstyled d-flex flex-column  align-items-start gap-2">
+            <li><a class=" text-decoration-none" href="#">Web Design</a></li>
+            <li><a class=" text-decoration-none" href="#">Web Development</a></li>
+            <li><a class=" text-decoration-none" href="#">Product Management</a></li>
+            <li><a class=" text-decoration-none" href="#">Marketing</a></li>
+            <li><a class=" text-decoration-none" href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container d-flex align-items-center align-items-lg-start text-center text-lg-start flex-column  p-3">
+        <h2 class="fs-4">Our Newsletter</h2>
+        <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+        <form class="input-group ">
+          <input class="form-control w-75" type="text" placeholder="Email Address">
+          <input class="form-control w-25 bg-danger text-light" type="submit" value="Subscribe">
+        </form>
+      </div>
+
+    </div>
+
+    <div class="container text-center border-top py-5">
+      <p>&copy; Copyright <a href="#hero" class="fw-bold text-danger text-decoration-none">Day</a> All Rights Reserved</p>
+      <p>Designed by <a href="https://github.com/Mahim79" target="_blank">MAHIM DEWAN</a></p>
+    </div>
+  </footer>
+        <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:1000
+      });
+    </script>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
